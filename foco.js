@@ -11,7 +11,7 @@ function foco(){
     btn.addEventListener("click", function() {
         if(switchPrendido){
             btn.classList.remove("on");
-            focoArriba.classList.remove("focoOm");
+            focoArriba.classList.remove("focoOn");
             focoAbajo.classList.remove("focoOn");
         }else{
             btn.classList.add("on");
